@@ -329,12 +329,13 @@
 				0,
 				4
 			],
-			"AddonWhitelist": {
+						"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -347,10 +348,27 @@
 					]
 				},
 				"Med-Kit": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
 				},
 				"Toolbox": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
 				},
 				"Key": {
 					"Addons": []
