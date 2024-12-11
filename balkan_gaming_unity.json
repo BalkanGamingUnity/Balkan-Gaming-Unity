@@ -1,8 +1,8 @@
 {
 	"Name": "Balkan Gaming Unity",
-	"Version": 1733829356,
+	"Version": 1733912172,
 	"MaxPerkRepetition": 1,
-	"GlobalNotes": "Perkovi se ne smiju ponavljati!\n\nSvaki igrač mora imati zasebne perkove!",
+	"GlobalNotes": "Perkovi se ne smiju ponavljati!\n\nSvaki igrač mora imati zasebne perkove!\n\nNeki killeri imaju dodatne Survivor Perks Bans, pa pripazite!",
 	"Tiers": [
 		{
 			"Name": "General",
@@ -153,7 +153,7 @@
 	"KillerOverride": [
 		{
 			"Name": "The Trapper",
-			"KillerNotes": "",
+			"KillerNotes": "Ovaj killer ima dodatne survivor perkove koji su banani pa pripazite!",
 			"IsDisabled": false,
 			"Map": [
 				"0",
@@ -171,7 +171,11 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"34",
+				"36",
+				"74"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -196,7 +200,8 @@
 				14,
 				15,
 				4,
-				0
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -213,7 +218,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -224,7 +230,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -236,59 +243,33 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
-			"SurvivorOfferings": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16,
-				17
-			],
-			"KillerOfferings": [
-				0,
-				1,
-				2,
-				3,
-				4,
-				5,
-				6,
-				7,
-				8,
-				9,
-				10,
-				11,
-				12,
-				13,
-				14,
-				15,
-				16
-			]
+			"SurvivorOfferings": [],
+			"KillerOfferings": []
 		},
 		{
 			"Name": "The Wraith",
-			"KillerNotes": "",
+			"KillerNotes": "Ovaj killer ima dodatne survivor perkove koji su banani pa pripazite!",
 			"IsDisabled": false,
 			"Map": [
 				"0",
@@ -306,7 +287,11 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"34",
+				"36",
+				"74"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -326,10 +311,15 @@
 				37
 			],
 			"ItemWhitelist": [
+				7,
+				8,
+				14,
+				15,
+				4,
 				0,
-				4
+				23
 			],
-						"AddonWhitelist": {
+			"AddonWhitelist": {
 				"Firecracker": {
 					"Addons": []
 				},
@@ -344,7 +334,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -355,7 +346,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -367,14 +359,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -419,11 +422,13 @@
 				52
 			],
 			"ItemWhitelist": [
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -431,6 +436,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -439,7 +445,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -450,7 +457,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -462,14 +470,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -512,12 +531,13 @@
 				68
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -525,6 +545,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -533,7 +554,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -544,7 +566,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -556,14 +579,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -595,7 +629,9 @@
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
-			"AddonTiersBanned": [],
+			"AddonTiersBanned": [
+				4
+			],
 			"IndividualAddonBans": [
 				85,
 				86,
@@ -603,16 +639,16 @@
 				90,
 				92,
 				95,
-				96,
-				98
+				96
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -620,6 +656,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -628,7 +665,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -639,7 +677,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -651,14 +690,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -666,7 +716,7 @@
 		},
 		{
 			"Name": "The Hag",
-			"KillerNotes": "",
+			"KillerNotes": "Ovaj killer ima dodatne survivor perkove koji su banani pa pripazite!",
 			"IsDisabled": false,
 			"Map": [
 				"0",
@@ -684,7 +734,11 @@
 			"AntiFacecampPermitted": false,
 			"KillerIndvPerkBans": [],
 			"KillerComboPerkBans": [],
-			"SurvivorIndvPerkBans": [],
+			"SurvivorIndvPerkBans": [
+				"34",
+				"36",
+				"74"
+			],
 			"SurvivorComboPerkBans": [],
 			"SurvivorWhitelistedPerks": [],
 			"SurvivorWhitelistedComboPerks": [],
@@ -703,12 +757,13 @@
 				117
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -716,6 +771,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -724,7 +780,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -735,7 +792,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -747,14 +805,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -795,12 +864,13 @@
 				127
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -808,6 +878,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -816,7 +887,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -827,7 +899,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -839,14 +912,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -888,12 +972,13 @@
 				150
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -901,6 +986,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -909,7 +995,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -920,7 +1007,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -932,14 +1020,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -981,12 +1080,13 @@
 				172
 			],
 			"ItemWhitelist": [
-				14,
-				15,
 				7,
 				8,
+				14,
+				15,
 				4,
-				0
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -994,6 +1094,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1002,7 +1103,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1013,7 +1115,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1025,14 +1128,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1076,12 +1190,13 @@
 				191
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1089,6 +1204,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1097,7 +1213,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1108,7 +1225,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1120,14 +1238,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1171,12 +1300,13 @@
 				215
 			],
 			"ItemWhitelist": [
-				14,
-				15,
 				7,
 				8,
+				14,
+				15,
 				4,
-				0
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1184,6 +1314,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1192,7 +1323,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1203,7 +1335,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1215,14 +1348,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1265,12 +1409,13 @@
 				232
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1278,6 +1423,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1286,7 +1432,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1297,7 +1444,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1309,14 +1457,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1363,12 +1522,13 @@
 				256
 			],
 			"ItemWhitelist": [
-				14,
-				15,
 				7,
 				8,
+				14,
+				15,
 				4,
-				0
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1376,6 +1536,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1384,7 +1545,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1395,7 +1557,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1407,14 +1570,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1458,12 +1632,13 @@
 				276
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1471,6 +1646,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1479,7 +1655,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1490,7 +1667,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1502,14 +1680,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1556,12 +1745,13 @@
 				296
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1569,6 +1759,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1577,7 +1768,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1588,7 +1780,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1600,14 +1793,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1648,12 +1852,13 @@
 				311
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1661,6 +1866,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1669,7 +1875,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1680,7 +1887,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1692,14 +1900,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1741,12 +1960,13 @@
 				328
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1754,6 +1974,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1762,7 +1983,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1773,7 +1995,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1785,14 +2008,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1833,12 +2067,13 @@
 				352
 			],
 			"ItemWhitelist": [
-				14,
-				15,
 				7,
 				8,
+				14,
+				15,
 				4,
-				0
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1846,6 +2081,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1854,7 +2090,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1865,7 +2102,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1877,14 +2115,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -1928,12 +2177,13 @@
 				378
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -1941,6 +2191,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -1949,7 +2200,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -1960,7 +2212,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -1972,14 +2225,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2012,19 +2276,22 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [
-				4
+				4,
+				3
 			],
 			"IndividualAddonBans": [
 				392,
-				394
+				389,
+				391
 			],
 			"ItemWhitelist": [
-				14,
-				15,
 				7,
 				8,
+				14,
+				15,
 				4,
-				0
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2032,6 +2299,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2040,7 +2308,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2051,7 +2320,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2063,14 +2333,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2109,12 +2390,13 @@
 			],
 			"IndividualAddonBans": [],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2122,6 +2404,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2130,7 +2413,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2141,7 +2425,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2153,14 +2438,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2203,12 +2499,13 @@
 				436
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2216,6 +2513,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2224,7 +2522,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2235,7 +2534,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2247,14 +2547,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2299,12 +2610,13 @@
 				452
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2312,6 +2624,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2320,7 +2633,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2331,7 +2645,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2343,14 +2658,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2393,12 +2719,13 @@
 				470
 			],
 			"ItemWhitelist": [
-				14,
-				15,
 				7,
 				8,
+				14,
+				15,
 				4,
-				0
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2406,6 +2733,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2414,7 +2742,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2425,7 +2754,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2437,14 +2767,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2488,12 +2829,13 @@
 				489
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2501,6 +2843,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2509,7 +2852,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2520,7 +2864,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2532,14 +2877,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2581,12 +2937,13 @@
 				510
 			],
 			"ItemWhitelist": [
-				14,
-				15,
 				7,
 				8,
+				14,
+				15,
 				4,
-				0
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2594,6 +2951,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2602,7 +2960,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2613,7 +2972,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2625,14 +2985,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2679,12 +3050,13 @@
 				536
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2692,6 +3064,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2700,7 +3073,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2711,7 +3085,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2723,14 +3098,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2773,12 +3159,13 @@
 				555
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2786,6 +3173,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2794,7 +3182,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2805,7 +3194,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2817,14 +3207,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2865,12 +3266,13 @@
 				578
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2878,6 +3280,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2886,7 +3289,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2897,7 +3301,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -2909,14 +3314,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -2959,12 +3375,13 @@
 				591
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -2972,6 +3389,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -2980,7 +3398,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -2991,7 +3410,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3003,14 +3423,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3054,12 +3485,13 @@
 				611
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3067,6 +3499,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -3075,7 +3508,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -3086,7 +3520,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3098,14 +3533,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3151,12 +3597,13 @@
 				634
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3164,6 +3611,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -3172,7 +3620,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -3183,7 +3632,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3195,14 +3645,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3245,12 +3706,13 @@
 				648
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3258,6 +3720,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -3266,7 +3729,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -3277,7 +3741,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3289,14 +3754,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3339,12 +3815,13 @@
 				671
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3352,6 +3829,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -3360,7 +3838,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -3371,7 +3850,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3383,14 +3863,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3435,12 +3926,13 @@
 				696
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3448,6 +3940,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -3456,7 +3949,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -3467,7 +3961,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3479,14 +3974,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3531,12 +4037,13 @@
 				716
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3544,6 +4051,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -3552,7 +4060,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -3563,7 +4072,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3575,14 +4085,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3626,12 +4147,13 @@
 				727
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3639,6 +4161,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -3647,7 +4170,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -3658,7 +4182,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3670,14 +4195,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
@@ -3720,12 +4256,13 @@
 				751
 			],
 			"ItemWhitelist": [
-				0,
-				4,
 				7,
 				8,
 				14,
-				15
+				15,
+				4,
+				0,
+				23
 			],
 			"AddonWhitelist": {
 				"Firecracker": {
@@ -3733,6 +4270,7 @@
 				},
 				"Flashlight": {
 					"Addons": [
+						0,
 						1,
 						2,
 						3,
@@ -3741,7 +4279,8 @@
 						6,
 						7,
 						8,
-						9
+						9,
+						11
 					]
 				},
 				"Med-Kit": {
@@ -3752,7 +4291,8 @@
 						3,
 						4,
 						5,
-						6
+						6,
+						8
 					]
 				},
 				"Toolbox": {
@@ -3764,14 +4304,25 @@
 						4,
 						5,
 						6,
-						7
+						7,
+						8
 					]
 				},
 				"Key": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						3
+					]
 				},
 				"Map": {
-					"Addons": []
+					"Addons": [
+						0,
+						1,
+						2,
+						4
+					]
 				}
 			},
 			"SurvivorOfferings": [],
