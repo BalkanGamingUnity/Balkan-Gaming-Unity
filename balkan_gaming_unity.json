@@ -1,8 +1,8 @@
 {
 	"Name": "Balkan Gaming Unity",
-	"Version": 1733912172,
+	"Version": 1734130531,
 	"MaxPerkRepetition": 1,
-	"GlobalNotes": "Perkovi se ne smiju ponavljati!\n\nSvaki igrač mora imati zasebne perkove!\n\nNeki killeri imaju dodatne Survivor Perks Bans, pa pripazite!",
+	"GlobalNotes": "Perks must not be repeated!\n\n Each player must have separate perks!",
 	"Tiers": [
 		{
 			"Name": "General",
@@ -21,10 +21,12 @@
 				"68",
 				"69",
 				"259",
+				"74",
 				"80",
 				"81",
 				"83",
 				"84",
+				"90",
 				"96",
 				"99",
 				"100",
@@ -44,6 +46,8 @@
 				"244",
 				"171",
 				"173",
+				"178",
+				"183",
 				"184",
 				"256",
 				"195",
@@ -153,7 +157,7 @@
 	"KillerOverride": [
 		{
 			"Name": "The Trapper",
-			"KillerNotes": "Ovaj killer ima dodatne survivor perkove koji su banani pa pripazite!",
+			"KillerNotes": "This killer has additional survivor perks that are bananas so watch out!",
 			"IsDisabled": false,
 			"Map": [
 				"0",
@@ -269,7 +273,7 @@
 		},
 		{
 			"Name": "The Wraith",
-			"KillerNotes": "Ovaj killer ima dodatne survivor perkove koji su banani pa pripazite!",
+			"KillerNotes": "This killer has additional survivor perks that are bananas so watch out!",
 			"IsDisabled": false,
 			"Map": [
 				"0",
@@ -409,17 +413,16 @@
 			"SurvivorWhitelistedComboPerks": [],
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
-			"AddonTiersBanned": [
-				4,
-				3
-			],
+			"AddonTiersBanned": [],
 			"IndividualAddonBans": [
 				41,
 				45,
 				49,
 				50,
 				51,
-				52
+				52,
+				54,
+				58
 			],
 			"ItemWhitelist": [
 				7,
@@ -2059,7 +2062,6 @@
 			"KillerWhitelistedPerks": [],
 			"KillerWhitelistedComboPerks": [],
 			"AddonTiersBanned": [
-				3,
 				4
 			],
 			"IndividualAddonBans": [
